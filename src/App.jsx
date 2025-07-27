@@ -42,7 +42,7 @@ export default function App() {
   }
   return (
     <div className="container mt-5">
-      <h1>crud project</h1>
+      <h1 className="text-center m-2">crud project fatoh dev</h1>
       <div className="row g-3">
         {allProducts.map((elem) => (
           <Child pro={elem} del={del} />

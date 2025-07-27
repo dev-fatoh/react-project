@@ -42,6 +42,7 @@ export default function App() {
   }
   return (
     <div className="container mt-5">
+      <h1>crud project</h1>
       <div className="row g-3">
         {allProducts.map((elem) => (
           <Child pro={elem} del={del} />
